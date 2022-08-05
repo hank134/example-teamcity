@@ -50,7 +50,7 @@ object Build : BuildType({
             userSettingsSelection = "settings.xml"
         }
         maven {
-            name = "master (1)"
+            name = "Testing"
 
             conditions {
                 doesNotContain("teamcity.build.branch", "master")
