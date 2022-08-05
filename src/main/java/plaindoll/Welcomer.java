@@ -13,4 +13,5 @@ public class Welcomer{
 	public String sayHunter(){
 		return "Wants to be a hunter again";
 	}
+
 }
